@@ -5,9 +5,10 @@
 
 
 int main() {
+    //Nome do Programa.
     printf("Desafio Super Trunfo!\n");
 
-    // Declaração da variaveis.
+    // Declaração das variaveis.
     
     char estado1, estado2;
     char codigodacarta1[20], codigodacarta2[20];
@@ -17,7 +18,7 @@ int main() {
     float PIB1, PIB2;
     int pontosturisticos1, pontosturisticos2;
 
-    // Leitura dos dados inseridos pelo o usuario.
+    // Leitura dos dados inseridos pelo o usuario, para a carta 1.
 
     printf("Digite a letra do Estado: \n");
     scanf("%c", &estado1);
@@ -40,7 +41,7 @@ int main() {
     printf("Digite o número de Pontos Turisticos: \n");
     scanf("%d", &pontosturisticos1);
 
-    //Impressão dos dados fornecidos e identificação da carta cadastrada.
+    //Impressão dos dados fornecidos e identificação da carta 1 cadastrada.
     
     printf("Carta 1: \n");
     printf("Estado: %c \n",estado1);
@@ -51,7 +52,7 @@ int main() {
     printf("PIB: %.2f Bilhões de reais.\n", PIB1);
     printf("Número de Pontos Turisticos: %d\n", pontosturisticos1);
 
-    
+    // Leitura dos dados inseridos pelo o usuario, para a carta 2.
     
     printf("Digite a letra do Estado: \n");
     scanf("%c", &estado2);
@@ -74,6 +75,8 @@ int main() {
     printf("Digite o número de Pontos Turisticos: \n");
     scanf("%d", &pontosturisticos2);
 
+    //Impressão dos dados fornecidos e identificação da carta 2 cadastrada.
+    
     printf("Carta 2: \n");
     printf("Estado: %c \n",estado2);
     printf("Código: %s \n",codigodacarta2);
@@ -83,5 +86,5 @@ int main() {
     printf("PIB: %.1f Bilhões de reais. \n", PIB2);
     printf("Número de Pontos Turisticos: %d", pontosturisticos2);
 
-
+    return 0;
 }
