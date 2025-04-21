@@ -7,6 +7,7 @@
 int main() {
     printf("Desafio Super Trunfo!\n");
 
+    // Declaração da variaveis.
     
     char estado1, estado2;
     char codigodacarta1[20], codigodacarta2[20];
@@ -15,6 +16,8 @@ int main() {
     float area1, area2;
     float PIB1, PIB2;
     int pontosturisticos1, pontosturisticos2;
+
+    // Leitura dos dados inseridos pelo o usuario.
 
     printf("Digite a letra do Estado: \n");
     scanf("%c", &estado1);
@@ -37,6 +40,8 @@ int main() {
     printf("Digite o número de Pontos Turisticos: \n");
     scanf("%d", &pontosturisticos1);
 
+    //Impressão dos dados fornecidos e identificação da carta cadastrada.
+    
     printf("Carta 1: \n");
     printf("Estado: %c \n",estado1);
     printf("Código: %s \n",codigodacarta1);
