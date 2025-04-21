@@ -20,7 +20,7 @@ int main() {
 
     // Leitura dos dados inseridos pelo o usuario, para a carta 1.
 
-    printf("Digite a letra do Estado: \n");
+    printf("\nDigite a letra do Estado: \n");
     scanf("%c", &estado1);
     
     printf("Digite o código da carta: \n");
@@ -43,7 +43,7 @@ int main() {
 
     //Impressão dos dados fornecidos e identificação da carta 1 cadastrada.
     
-    printf("Carta 1: \n");
+    printf("\nCarta 1: \n");
     printf("Estado: %c \n",estado1);
     printf("Código: %s \n",codigodacarta1);
     printf("Nome da Cidade: %s \n", nomedacidade1);
@@ -54,8 +54,8 @@ int main() {
 
     // Leitura dos dados inseridos pelo o usuario, para a carta 2.
     
-    printf("Digite a letra do Estado: \n");
-    scanf("%c", &estado2);
+    printf("\nDigite a letra do Estado: \n");
+    scanf(" %c", &estado2);
     
     printf("Digite o código da carta: \n");
     scanf("%s", &codigodacarta2);
@@ -77,7 +77,7 @@ int main() {
 
     //Impressão dos dados fornecidos e identificação da carta 2 cadastrada.
     
-    printf("Carta 2: \n");
+    printf("\nCarta 2: \n");
     printf("Estado: %c \n",estado2);
     printf("Código: %s \n",codigodacarta2);
     printf("Nome da Cidade: %s \n", nomedacidade2);
